@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStore.ApiGateway", "BikeStore.ApiGateway\BikeStore.ApiGateway.csproj", "{1E0D14B5-3638-4BD4-8E48-833C16C74DF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{78E7163E-F296-433E-806E-5A5CCFEB5CE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9182FCB7-FBD8-4A4D-B721-E4E097EA7649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStore.Api", "BikeStore.Api\BikeStore.Api.csproj", "{2636AB19-A9AE-4FBA-9B8B-45AE2DC09857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E0D14B5-3638-4BD4-8E48-833C16C74DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0D14B5-3638-4BD4-8E48-833C16C74DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0D14B5-3638-4BD4-8E48-833C16C74DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0D14B5-3638-4BD4-8E48-833C16C74DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2636AB19-A9AE-4FBA-9B8B-45AE2DC09857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2636AB19-A9AE-4FBA-9B8B-45AE2DC09857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2636AB19-A9AE-4FBA-9B8B-45AE2DC09857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2636AB19-A9AE-4FBA-9B8B-45AE2DC09857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E0D14B5-3638-4BD4-8E48-833C16C74DF3} = {78E7163E-F296-433E-806E-5A5CCFEB5CE9}
+		{2636AB19-A9AE-4FBA-9B8B-45AE2DC09857} = {9182FCB7-FBD8-4A4D-B721-E4E097EA7649}
+	EndGlobalSection
+EndGlobal
